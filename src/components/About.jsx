@@ -14,7 +14,7 @@ const panels = [
   {
     icon: Cpu,
     title: "Software Architecture",
-    description: "Designing robust server-side routing, data schemas, API integrations, and secure authentication flows for clean web platforms.",
+    description: "Designing robust server-side routing, database concurrency controls, third-party API integrations (Google Calendar, SMTP), and secure authentication flows.",
     color: "from-violet-500/20 to-purple-500/5",
     borderColor: "hover:border-violet-500/30",
     glowColor: "shadow-violet-500/10",

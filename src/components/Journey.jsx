@@ -34,7 +34,7 @@ const timelineEvents = [
     year: "2026",
     title: "Full-Stack Platforms & Flagships",
     institution: "Active Development",
-    description: "Engineered HireFlow-AI recruitment screening tools, scaled API performance, practiced robust DSA C++ patterns, and prepared for software engineering opportunities.",
+    description: "Engineered MediBridge (Healthcare scheduling & Gemini AI follow-up suite) & HireFlow-AI recruitment screening platform, solved distributed slot concurrency, practiced robust DSA C++ patterns, and prepared for software engineering opportunities.",
     icon: Rocket,
     glow: "shadow-primary/10",
     textGlow: "text-primary",

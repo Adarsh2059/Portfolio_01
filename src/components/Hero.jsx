@@ -150,11 +150,15 @@ export default function Hero() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.6, duration: 0.4 }}
-                className="pl-4 mt-1 text-slate-300 flex flex-col gap-0.5 border-l border-secondary/20"
+                className="pl-4 mt-1 text-slate-300 flex flex-col gap-1 border-l border-secondary/20"
               >
-                <div className="text-primary font-medium">HireFlow-AI</div>
-                <div className="text-xs text-slate-400 italic">
-                  AI Resume Screening &amp; Interview Platform
+                <div>
+                  <span className="text-emerald-400 font-medium">MediBridge:</span>{" "}
+                  <span className="text-xs text-slate-400">Healthcare &amp; AI Scheduling Suite</span>
+                </div>
+                <div>
+                  <span className="text-primary font-medium">HireFlow-AI:</span>{" "}
+                  <span className="text-xs text-slate-400">AI Resume Screening &amp; ATS Platform</span>
                 </div>
               </motion.div>
 
@@ -169,11 +173,11 @@ export default function Hero() {
                 transition={{ delay: 2.4, duration: 0.4 }}
                 className="pl-4 mt-1 text-slate-300 border-l border-primary/20"
               >
-                <span className="text-primary/90">C++</span> •{" "}
-                <span className="text-white">JavaScript</span> •{" "}
                 <span className="text-primary/90">React</span> •{" "}
                 <span className="text-white">Node.js</span> •{" "}
-                <span className="text-primary/90">MongoDB</span>
+                <span className="text-primary/90">MongoDB</span> •{" "}
+                <span className="text-emerald-400">Gemini AI</span> •{" "}
+                <span className="text-white">C++</span>
               </motion.div>
 
               {/* Cursor Blinking Line */}

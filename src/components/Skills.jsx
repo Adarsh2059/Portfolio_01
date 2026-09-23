@@ -7,38 +7,41 @@ const categories = [
   { id: "frontend", label: "Frontend" },
   { id: "backend", label: "Backend" },
   { id: "databases", label: "Databases" },
-  { id: "tools", label: "Tools & Utilities" },
+  { id: "tools", label: "Tools & Integrations" },
 ];
 
 const skillItems = [
   // Languages
   { name: "C++", category: "languages", level: "Primary Language for DSA" },
   { name: "JavaScript", category: "languages", level: "Full-Stack Development" },
-  { name: "Java", category: "languages", level: "Core Concepts" },
+  { name: "Java", category: "languages", level: "Core Concepts & OOP" },
   { name: "SQL", category: "languages", level: "Database Querying" },
 
   // Frontend
-  { name: "HTML", category: "frontend", level: "Semantic Markup" },
-  { name: "CSS", category: "frontend", level: "Responsive Layouts" },
-  { name: "React", category: "frontend", level: "Component Architectures" },
-  { name: "Bootstrap", category: "frontend", level: "Rapid Styling" },
-  { name: "Tailwind CSS", category: "frontend", level: "Utility-First Design" },
+  { name: "React.js", category: "frontend", level: "Component Architectures & SPA" },
+  { name: "Redux Toolkit", category: "frontend", level: "Centralized State Management" },
+  { name: "Tailwind CSS", category: "frontend", level: "Utility-First Responsive UI" },
+  { name: "HTML5 & CSS3", category: "frontend", level: "Semantic Markup & Styling" },
 
   // Backend
-  { name: "Node.js", category: "backend", level: "JavaScript Runtime" },
-  { name: "Express.js", category: "backend", level: "Backend REST APIs" },
-  { name: "REST APIs", category: "backend", level: "Service Integration" },
+  { name: "Node.js", category: "backend", level: "JavaScript Runtime & Queues" },
+  { name: "Express.js", category: "backend", level: "Backend REST APIs & Middleware" },
+  { name: "Mongoose", category: "backend", level: "Schema Modeling & Concurrency" },
+  { name: "JWT & Auth", category: "backend", level: "Role-Based Access & Security" },
+  { name: "REST APIs", category: "backend", level: "Microservice & API Integration" },
 
   // Databases
-  { name: "MongoDB", category: "databases", level: "NoSQL Database" },
-  { name: "MySQL", category: "databases", level: "Relational Database" },
-  { name: "PostgreSQL", category: "databases", level: "Relational Database" },
+  { name: "MongoDB / Atlas", category: "databases", level: "NoSQL DB & TTL Indexes" },
+  { name: "MySQL", category: "databases", level: "Relational Database Design" },
+  { name: "PostgreSQL", category: "databases", level: "Relational DB & Transactions" },
 
-  // Tools & Utilities
-  { name: "Git", category: "tools", level: "Version Control" },
-  { name: "GitHub", category: "tools", level: "Collab & Deployment" },
-  { name: "Postman", category: "tools", level: "API Testing" },
-  { name: "Cloudinary", category: "tools", level: "Asset Management" },
+  // Tools & Integrations
+  { name: "Google Gemini API", category: "tools", level: "Generative AI & LLM Triaging" },
+  { name: "Google Calendar API", category: "tools", level: "OAuth 2.0 & Event Sync" },
+  { name: "Vite", category: "tools", level: "Modern Frontend Bundling" },
+  { name: "Git & GitHub", category: "tools", level: "Version Control & CI/CD" },
+  { name: "Postman", category: "tools", level: "API Testing & Automation" },
+  { name: "Cloudinary", category: "tools", level: "Media Asset CDN Management" },
 ];
 
 // Helper to get category gradient styles

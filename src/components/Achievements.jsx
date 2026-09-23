@@ -1,19 +1,31 @@
 import React from "react";
-import { Award, CheckCircle2, Target } from "lucide-react";
+import { Award, Trophy, Users, Target } from "lucide-react";
 import { motion } from "framer-motion";
 
 const achievements = [
   {
     title: "Dr. G. Viswanathan Coding Challenge",
-    description: "Successfully cleared the university-wide coding challenge conducted across participating students, demonstrating speed and accuracy in algorithmic problem solving.",
+    description: "Cleared the prestigious university-wide coding challenge conducted across participating students, demonstrating algorithmic accuracy, speed, and problem-solving excellence.",
     badge: "University Challenge",
+    icon: Trophy,
+  },
+  {
+    title: "Smart India Hackathon 2024",
+    description: "Selected for the Internal Round of Smart India Hackathon (SIH) 2024, formulating high-impact software solutions for real-world national problems.",
+    badge: "National Hackathon",
     icon: Award,
   },
   {
-    title: "#50DaysOfCode / G.V. Challenge",
-    description: "Maintained consistent daily progress solving complex DSA problems. Established strong coding discipline and algorithmic optimization habits.",
-    badge: "Coding Discipline",
+    title: "Zelestra × AWS ML Ascend Challenge (2nd Ed.)",
+    description: "Led a cross-functional engineering team to a Top 5% finish among hundreds of competitors, designing and deploying applied machine learning pipelines.",
+    badge: "Top 5% Finalist",
     icon: Target,
+  },
+  {
+    title: "VITBMUN Diplomacy & Leadership",
+    description: "Active delegate in Model United Nations, cultivating structured debate, communication, rapid consensus building, and diplomatic negotiation skills.",
+    badge: "Leadership & Debate",
+    icon: Users,
   },
 ];
 
@@ -27,7 +39,7 @@ export default function Achievements() {
         {/* Section Header */}
         <div className="flex flex-col items-center mb-16">
           <span className="font-mono text-sm uppercase tracking-widest text-primary mb-3">
-            // Milestones &amp; Challenges
+            // Milestones &amp; Honors
           </span>
           <h2 className="font-display font-bold text-3xl sm:text-4xl text-white">
             Key Achievements
@@ -36,7 +48,7 @@ export default function Achievements() {
         </div>
 
         {/* Achievements Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {achievements.map((item, index) => {
             const Icon = item.icon;
             return (

@@ -32,7 +32,7 @@ export default function ResumeCTA() {
           </h2>
 
           <p className="text-slate-400 text-sm md:text-base max-w-xl leading-relaxed">
-            Explore my resume for a concise overview of my academic background (VIT Bhopal CSE '27), full-stack project pipelines (HireFlow-AI), algorithms practice, and tech stack details.
+            Explore my resume for a concise overview of my academic background (VIT Bhopal CSE '27), full-stack platforms (MediBridge, HireFlow-AI), algorithms practice, and tech stack details.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-2 w-full sm:w-auto">
